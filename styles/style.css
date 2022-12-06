@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+}
+
+
+.header{
+    display: flex;  
+    margin: 0;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.nav-bar, .boton{
+    display: none;
+}
+
+.top-main img{
+    width: 100%;
+    padding: 20px;
+}
+
+.left-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 1rem;
+}
+
+.left-box h1, p{
+    text-align: end;
+    margin-top: 30px;
+}
+
+.left-box h1{
+    color: #232C50;
+    font-size: 40px;
+}
+
+.left-box p{
+    font-weight: 500;
+}
+
+.left-box button{
+    color: #fff;
+    background-color: #8B48BF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+.public-1{
+    background-color: #3CDDF3;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-info-1{
+    color: #fff;
+}
+
+.top-info-1 p{
+    text-align: start;
+    font-size: 0.9rem;
+}
+
+.top-info-1 h2{
+    font-size: 36px;
+}
+.top-info-2{
+    color: #fff;
+}
+
+.top-info-2 p{
+    text-align: start;
+    font-size: 0.9rem;
+}
+
+.top-info-2 h2{
+    font-size: 36px;
+}
+
+.container-info{
+    margin: 40px 0px 0px 20px;
+}
+
+.tittle{
+    display: flex;
+    align-items: center;
+    background-color: #8B48BF4D;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.number{
+    color: #fff;
+    background-color: #8B48BF;
+    margin-right: 10px;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.box-text{
+    font-weight: 700;
+    color: #323851;
+}
+
+.box-info{
+    color: #B3B2B7;
+    padding: 25px 20px 30px 0px;
+}
+
+
+.container-best{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-best h2{
+    margin: 1rem;
+    padding: 1rem;
+    color: #242E53;
+}
+
+.text-best-1, .text-best-2{
+    text-align: center;
+    background-color: #fafafa;
+    width: 100%;
+    margin: 0;
+    padding-top: 2.8rem;
+}
+
+.text-best-1{
+    color: #3F4868;
+    font-weight: 700;
+}
+
+.text-best-2{
+    color: #B3B2B7;
+    padding: 10px 15px 10px 15px;
+}
+
+
+.container-best button{
+    color: #fff;
+    background-color: #8B48BF;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 300;
+    font-size: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.picture img{
+    position: relative;
+    top: 36px;
+    text-align: center;
+}
+
+.card-1, .card-2,.card-3{
+    width: 445px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+}
+
+.public-2{
+    background-color: #3CDDF3;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.text-banner{
+    text-align: center;
+    padding: 0px 60px;
+}
+
+
+.boton-banner{
+    color: #fff;
+    background-color: #232C50;
+    padding: 12.5px 42px;
+    border: none;
+    border-radius: 40px;
+    margin-top: 50px;
+}
+
+.container-footer{
+    padding: 40px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E1E26;
+}
+
+.f-box-1{
+    display: flex;
+}
+
+.email{
+    margin-right: 10px;
+    padding: 10px;
+    width: 280px;
+    border: none;
+    border-radius: 40px;
+    font-weight: 400;
+}
+
+.submit{
+    background-color: #8B48BF;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+
+.f-box-2{
+    display: flex;
+    width: 320px;
+    margin-top: 30px;
+    
+}
+
+.f-box-2-left, .f-box-2-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 60px;
+    
+}
+
+.f-box-2-left p, .f-box-2-right p{
+    margin: 15px 0px 0px 0px;
+    color: #ffffffd8;
+    font-weight: lighter;
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+}
+
+.f-box-2-left p:hover, .f-box-2-right p:hover{
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+.f-box-2-right p{
+    position: relative;
+    left: 40px;
+}
+
+
+.f-box-3{
+    width: 100%;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-1, .logo-2, .logo-3, .logo-4, .logo-5{
+    margin:0px 20px;
+}
+
+.f-box-4{
+    margin: 50px;
+    text-align: center;
+}
+
+.f-box-5 p{
+    background-color: #1E1E26;
+    color: #8C8C94;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.boton-1:hover{
+    transition: 0.4s ease-in-out;
+    background-color: #8B48BFB2;
+}
+
+
+@media (min-width: 768px) {
+    .box{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .card-1, .card-3{
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 1280px) {
+    body{
+        width: 100%;
+    }   
+    .header{
+        padding: 65px 100px;
+    }
+    .burguer{
+        display: none;
+    }
+    .nav-bar{
+        display: contents;
+        display: flex;
+        align-items: center;
+    }
+    .boton{
+        display: contents;
+        
+    }
+    .boton button{
+        color: #fff;
+        background-color: #8B48BF;
+        padding: 10px 40px;
+        border: none;
+        border-radius: 30px;
+        font-weight: 300;
+        font-size: 10px;
+        cursor: pointer;
+        box-shadow: 0px 6px 24px -10px rgba(0,0,0,1);
+    }
+    .boton button:hover{
+        transition: 0.4s ease-in-out;
+        background-color: #8B48BFB2;
+    }
+    .nav a{
+        color: #242E52;
+        text-decoration: none;
+        margin: 0px 20px;
+    }
+
+    .nav a:hover{
+        color: #242E5299;
+        transition: 0.2s ease-in-out;
+    }
+
+    .top-main{
+        display: flex;
+        flex-direction: row;
+        padding: 0px 100px;
+        margin-bottom: 100px;
+    }
+    .right-box{
+        width: 50%;
+    }
+    .left-box{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+    .left-box h1{
+        font-size: 50px;
+    }
+
+    .public-1{
+        background-color: #8B48BF;
+        padding: 40px 220px;
+    }
+    .top-info-1{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .top-info-1 h2{
+        width: 50%;
+    }
+
+    .top-info-1 p{
+        width: 50%;
+        display: flex;
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .container-info{
+        margin: 0;
+        display: flex;
+        
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #FAFAFA;
+    }
+    
+    .box-text{
+        background-color: none;
+    }
+    .box{
+        width: 446px;
+        height: 43px;
+        margin: 130px 20px;
+    }
+
+    .tittle{
+        background-color: #FAFAFA;
+    }
+
+    .box-info{
+        position: relative;
+        left: 77px;
+    }
+    
+    .public-2{
+        background-color: #8B48BF;
+    }
+    .top-info-2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:40px 200px 40px 0px;
+    }
+
+    .text-banner{
+        width: 50%;
+    }
+    .boton-banner{
+        margin: 0;
+        width: 140px;
+        height: 44px;
+        background-color: white;
+        color: #8B48BF;
+        border: #8B48BF 1px solid;
+        cursor: pointer;
+        box-shadow: 0px 6px 27px -4px rgba(0,0,0,0.75);
+    }
+
+
+    .container-footer{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .f-box-3{
+        display: block;
+    }
+    .logos{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .logo-1, .logo-2, .logo-3, .logo-4, .logo-5{
+        margin:5px;
+    }
+
+    .logo-icono{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+
+    .f-box-4{
+        margin: 0 50% 50% 0;
+    }
+
+    .f-box-1{
+        align-self: flex-start;
+        margin-top: 40px;
+    }
+
+    .f-box-5 p{
+        text-align: end;
+        padding-right: 15%;
+    }
+
+}
+
+
+@media (min-width: 1440px) {
+    .container-info{
+        display: flex;
+        padding: 40px 300px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .box{
+        width: 446px;
+        height: 43px;
+        margin: 130px 20px;
+    }
+    .tittle{
+        background-color: white;
+    }
+    .box-info{
+        position: relative;
+        left: 77px;
+    }
+}
